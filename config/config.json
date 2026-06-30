@@ -1,0 +1,12 @@
+{
+  "tenant_id": "clinica_dental_peru_001",
+  "business_name": "Clínica Dental San Apollonia",
+  "vector_db": {
+    "collection_name": "b2b_global_knowledge_base",
+    "similarity_threshold": 0.82
+  },
+  "business_rules": {
+    "slots_required": ["customer_name", "phone", "service", "date_time"],
+    "available_services": ["Limpieza dental", "Curación", "Ortodoncia"]
+  }
+}
